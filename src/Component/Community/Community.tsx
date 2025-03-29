@@ -1,6 +1,5 @@
 import { FaLeaf, FaFish, FaAppleAlt } from "react-icons/fa";
 import { GiWheat } from "react-icons/gi";
-
 export default function Community() {
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-6">
