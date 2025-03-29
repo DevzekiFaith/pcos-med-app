@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/Component/Header/Header"; 
+import Footer from "@/Component/Footer/Footer";
 
 export default function Home() {
   return (
@@ -10,58 +11,51 @@ export default function Home() {
 
       {/* Hero Section */}
       <main
-        className="flex flex-col items-center justify-center flex-grow text-white text-center p-8"
+        className="flex flex-col items-center justify-center flex-grow text-white text-center lg:text-left p-8"
         style={{ backgroundColor: "#129D90" }}
       >
-        <div className="w-full max-w-screen-lg mx-auto flex flex-col lg:flex-row items-center justify-center gap-8">
+        <div className="w-full max-w-screen-lg mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
           {/* Left Content */}
-          <div
-            className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-lg transition-transform duration-500 hover:scale-105"
-          >
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
-              Empowering Women’s Health
+          <div className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-lg">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6">
+              AI-Powered Healthcare for PCOS Management
             </h1>
-
-            <p className="text-lg sm:text-xl lg:text-2xl font-semibold mb-6">
-              Track your cycle, get personalized diagnoses, and connect with a supportive community.
+            <p className="text-lg sm:text-xl lg:text-2xl font-medium mb-8">
+              Personalized care solutions combining clinical expertise with advanced technology.
             </p>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 mt-4">
+            <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="#get-started"
-                className="bg-white text-teal-600 font-medium rounded-full px-6 py-3 transition-transform transform hover:scale-110 hover:bg-[#129D90] hover:text-white"
+                href="/diagnosis"
+                className="bg-white text-teal-600 font-medium rounded-full px-6 py-3 hover:bg-gray-100 transition"
               >
                 Get Started
               </Link>
               <Link
                 href="#learn-more"
-                className="bg-transparent border border-white text-white font-medium rounded-full px-6 py-3 hover:bg-white hover:text-teal-600 transition-transform transform hover:scale-110"
+                className="bg-transparent border border-white text-white font-medium rounded-full px-6 py-3 hover:bg-white hover:text-teal-600 transition"
               >
                 Learn More
               </Link>
             </div>
           </div>
 
-          {/* Data BI Image */}
-          <div
-            className="flex justify-center transition-transform duration-500 hover:scale-105 hover:translate-y-2"
-          >
+          {/* Right Image */}
+          <div className="flex justify-center lg:justify-end">
             <Image
               src="/images/chart1.jpg"
-              width={800}
-              height={800}
-              alt="chart-image"
-              className="rounded-lg shadow-lg w-[600px] h-[340px]"
+              width={600}
+              height={400}
+              alt="PCOS Management Dashboard"
+              className="rounded-lg shadow-lg"
             />
           </div>
         </div>
       </main>
 
       {/* Footer */}
-      <footer className="bg-gray-100 py-6 text-center text-gray-600">
-        <p>&copy; 2025 CycleCare. All rights reserved.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

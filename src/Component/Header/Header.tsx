@@ -18,7 +18,7 @@ export default function Header() {
 
       {/* Navigation Links */}
       <nav className="hidden lg:flex gap-6 text-gray-700">
-        <Link href="#home" className="hover:text-teal-600">
+        <Link href="/" className="hover:text-teal-600">
           Home
         </Link>
         <Link href="/diagnosis" className="hover:text-teal-600">

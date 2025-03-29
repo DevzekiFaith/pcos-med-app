@@ -25,7 +25,7 @@ export default function Modal() {
 
       {/* Modal */}
       {isOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center">
+        <div className="fixed inset-0 bg-black opacity-95 z-50 flex items-center justify-center">
           <div className="bg-white w-11/12 max-w-md rounded-lg shadow-lg p-6 relative">
             {/* Close Button */}
             <button
@@ -41,7 +41,7 @@ export default function Modal() {
               {/* Logo */}
               <div className="flex items-center gap-2">
                 <Image
-                  src="/logo.svg"
+                  src="/images/pics1.jpg"
                   alt="CycleCare Logo"
                   width={40}
                   height={40}
@@ -53,7 +53,7 @@ export default function Modal() {
 
               {/* Navigation Links */}
               <nav className="flex flex-col gap-4 text-gray-700 text-lg">
-                <Link href="#home" onClick={toggleModal}>
+                <Link href="/" onClick={toggleModal}>
                   Home
                 </Link>
                 <Link href="/diagnosis" onClick={toggleModal}>
