@@ -1,5 +1,5 @@
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
-import Link from "next/link";
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; // Ensure proper import
+import Link from "next/link"; // Import Link from next/link
 
 export default function Footer() {
   return (
