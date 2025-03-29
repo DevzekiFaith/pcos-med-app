@@ -1,4 +1,5 @@
-import { FaStethoscope, FaVideo, FaHeartbeat, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; // Importing icons
+// import { FaStethoscope, FaVideo, FaHeartbeat, FaFacebook, 
+    // FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; 
 
 export default function Footer() {
   return (
@@ -18,17 +19,17 @@ export default function Footer() {
             <h3 className="text-lg font-bold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#about" className="hover:text-white">
+                <a href="/about" className="hover:text-white">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#services" className="hover:text-white">
+                <a href="/services" className="hover:text-white">
                   Services
                 </a>
               </li>
               <li>
-                <a href="#contact" className="hover:text-white">
+                <a href="/contact" className="hover:text-white">
                   Contact
                 </a>
               </li>
