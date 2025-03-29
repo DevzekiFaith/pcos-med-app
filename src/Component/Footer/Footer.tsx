@@ -1,5 +1,5 @@
-// import { FaStethoscope, FaVideo, FaHeartbeat, FaFacebook, 
-    // FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa"; 
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -19,19 +19,19 @@ export default function Footer() {
             <h3 className="text-lg font-bold text-white mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/about" className="hover:text-white">
+                <Link href="#about" className="hover:text-white">
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/services" className="hover:text-white">
+                <Link href="#services" className="hover:text-white">
                   Services
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/contact" className="hover:text-white">
+                <Link href="/contact" className="hover:text-white">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -41,19 +41,19 @@ export default function Footer() {
             <h3 className="text-lg font-bold text-white mb-4">Resources</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#blog" className="hover:text-white">
+                <Link href="#blog" className="hover:text-white">
                   Blog
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#faq" className="hover:text-white">
+                <Link href="#faq" className="hover:text-white">
                   FAQ
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#support" className="hover:text-white">
+                <Link href="#support" className="hover:text-white">
                   Support
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -62,38 +62,38 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold text-white mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a
+              <Link
                 href="https://facebook.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
                 <FaFacebook className="h-6 w-6" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
                 <FaTwitter className="h-6 w-6" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://instagram.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
                 <FaInstagram className="h-6 w-6" />
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://linkedin.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white"
               >
                 <FaLinkedin className="h-6 w-6" />
-              </a>
+              </Link>
             </div>
           </div>
         </div>
