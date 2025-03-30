@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Header from "@/Component/Header/Header"; 
 import Footer from "@/Component/Footer/Footer";
+import MeetAda from "@/Component/Meet-Ada/Meet-Ada";
 
 export default function Home() {
   return (
@@ -51,6 +52,9 @@ export default function Home() {
               className="rounded-lg shadow-lg"
             />
           </div>
+        </div>
+        <div>
+          <MeetAda/>
         </div>
       </main>
 
