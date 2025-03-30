@@ -2,7 +2,7 @@ import { FaLeaf, FaFish, FaAppleAlt } from "react-icons/fa";
 import { GiWheat } from "react-icons/gi";
 import Header from "@/Component/Header/Header";
 import Footer from "@/Component/Footer/Footer";
-import Image from "next/image"; // Importing Image for profile pictures
+import Image from "next/image";
 
 export default function Community() {
   return (
@@ -27,7 +27,7 @@ export default function Community() {
               {/* Discussion 1 */}
               <div className="flex items-center gap-4">
                 <Image
-                  src="/images/me4.jpg" // Replace with the actual path to the image
+                  src="/images/me4.jpg"
                   alt="Sarah M."
                   width={64}
                   height={64}
