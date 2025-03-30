@@ -56,11 +56,11 @@ export default function MeetAda() {
           <div className="space-y-4">
             {/* Chat Messages */}
             <div className="bg-teal-50 text-teal-900 p-4 rounded-lg font-medium">
-              Hello! I am Ada, your personal health assistant. How can I help you
+              Hello I am Ada, your personal health assistant. How can I help you
               today?
             </div>
             <div className="bg-gray-100 text-gray-900 p-4 rounded-lg self-end font-medium">
-              I'd like to track my symptoms today.
+              I would like to track my symptoms today.
             </div>
             <div className="bg-teal-50 text-teal-900 p-4 rounded-lg font-medium">
               I will help you track your symptoms. Lets start with how you are
