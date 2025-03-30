@@ -36,7 +36,7 @@ export default function TelemedicinePage() {
           {/* Right Image */}
           <div className="flex-1">
             <Image
-              src="/images/telemedicine.jpg"
+              src="/images/telemedicine1.jpg"
               alt="Telemedicine Consultation"
               width={500}
               height={350}
@@ -50,7 +50,7 @@ export default function TelemedicinePage() {
           {/* Left Image */}
           <div className="flex-1">
             <Image
-              src="/images/secure-video.jpg"
+              src="/images/telemedicine2.jpg"
               alt="Secure Video Consultation"
               width={500}
               height={350}

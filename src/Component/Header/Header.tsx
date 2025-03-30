@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import Modal from "@/Component/Modal/Modal"; // Importing the Modal component
-
+import Modal from "@/Component/Modal/Modal";
 export default function Header() {
   return (
     <header className="bg-white shadow-md py-4 px-8 flex justify-between items-center">
