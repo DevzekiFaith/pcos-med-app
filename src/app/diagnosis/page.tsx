@@ -74,7 +74,7 @@ export default function DiagnosisPage() {
             href="https://circlecareai-diagn.streamlit.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer"
+            className="bg-white rounded-lg shadow-md p-6 flex fbg-white rounded-lg p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointerlex-col items-center text-center transition-transform transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer"
           >
             <div className="text-teal-600 text-4xl mb-4">
               <FaRobot /> {/* AI Companion ADA Icon */}
