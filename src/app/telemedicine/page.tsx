@@ -74,6 +74,30 @@ export default function TelemedicinePage() {
             </ol>
           </div>
         </div>
+
+        {/* Streamlit Card */}
+        <div className="mt-16 flex justify-center">
+          <a
+            href="https://cyclecare-telemedicine.streamlit.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer max-w-sm"
+          >
+            <div className="text-teal-600 text-4xl mb-4">
+              <Image
+                src="/images/telemedicine-icon.png" // Replace with an appropriate icon or image
+                alt="Telemedicine Icon"
+                width={64}
+                height={64}
+                className="rounded-full"
+              />
+            </div>
+            <h2 className="text-xl font-semibold mb-2 text-black">Telemedicine Platform</h2>
+            <p className="text-gray-600">
+              Access our secure telemedicine platform for personalized healthcare.
+            </p>
+          </a>
+        </div>
       </main>
 
       {/* Footer */}
