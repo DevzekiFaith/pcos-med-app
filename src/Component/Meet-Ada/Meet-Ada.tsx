@@ -3,9 +3,11 @@ import { FaCheckCircle } from "react-icons/fa";
 
 export default function MeetAda() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-6 flex flex-col items-center mt-[4rem] rounded-lg shadow-md">
-      <div className="max-w-screen-lg mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center xl:p-[4rem]">
-        {/* Left Section: Introduction */}
+    <div className="min-h-screen bg-gray-50 py-12 px-6 flex flex-col items-center 
+    mt-[4rem] rounded-lg shadow-md">
+      <div className="max-w-screen-lg mx-auto grid grid-cols-1 
+      lg:grid-cols-2 gap-12 items-center xl:p-[4rem]">
+        {/* Left Section: Introduction */} 
         <div className="transition-transform transform hover:scale-105 duration-300">
           <h1 className="text-3xl sm:text-4xl font-extrabold text-black mb-6">
             Meet Ada, Your AI Health Companion
@@ -37,7 +39,8 @@ export default function MeetAda() {
         </div>
 
         {/* Right Section: Chat Interface */}
-        <div className="bg-white rounded-lg shadow-md p-6 transition-transform transform hover:translate-y-2 hover:scale-105 duration-300">
+        <div className="bg-white rounded-lg shadow-md p-6 transition-transform transform 
+        hover:translate-y-2 hover:scale-105 duration-300">
           <div className="flex items-center gap-4 mb-6">
             <Image
               src="/images/ADA.jpg"
