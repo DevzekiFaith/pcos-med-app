@@ -35,7 +35,9 @@ export default function SignInPage() {
             alt="Sign-In Illustration"
             width={400}
             height={400}
-            className="rounded-lg shadow-md hover:scale-110 transition-transform duration-300"
+            className="rounded-lg shadow-md hover:scale-110 
+            transition-transform 
+            duration-300"
           />
         </div>
 
