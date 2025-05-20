@@ -12,7 +12,8 @@ export default function Home() {
 
       {/* Hero Section */}
       <main
-        className="flex flex-col items-center justify-center flex-grow text-white text-center lg:text-left p-8"
+        className="flex flex-col items-center justify-center flex-grow text-white 
+        text-center lg:text-left p-8"
         style={{ backgroundColor: "#129D90" }}
       >
         <div className="w-full max-w-screen-lg mx-auto flex flex-col lg:flex-row items-center justify-between gap-8">
@@ -29,13 +30,16 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="/diagnosis"
-                className="bg-white text-teal-600 font-medium rounded-full px-6 py-3 hover:bg-gray-100 transition"
+                className="bg-white text-teal-600 font-medium 
+                rounded-full px-6 py-3 hover:bg-gray-100 transition"
               >
                 Get Started
               </Link>
               <Link
                 href="#learn-more"
-                className="bg-transparent border border-white text-white font-medium rounded-full px-6 py-3 hover:bg-white hover:text-teal-600 transition"
+                className="bg-transparent border border-white 
+                text-white font-medium rounded-full px-6 py-3 
+                hover:bg-white hover:text-teal-600 transition"
               >
                 Learn More
               </Link>

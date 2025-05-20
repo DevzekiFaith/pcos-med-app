@@ -27,7 +27,10 @@ export default function SignInPage() {
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-4xl flex flex-col lg:flex-row items-center gap-8 transition-transform transform hover:scale-105 hover:translate-y-2 duration-300">
+      <div className="bg-white p-8 rounded-lg shadow-md 
+      w-full max-w-4xl flex flex-col lg:flex-row items-center 
+      gap-8 transition-transform transform hover:scale-105 
+      hover:translate-y-2 duration-300">
         {/* Image Section */}
         <div className="flex-1">
           <Image
@@ -54,12 +57,16 @@ export default function SignInPage() {
                 Email
               </label>
               <div className="relative">
-                <FaEnvelope className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" />
+                <FaEnvelope className="absolute left-3 top-1/2 transform -translate-y-1/2 
+                text-gray-400" />
                 <input
                   type="email"
                   id="email"
                   {...register("email", { required: "Email is required" })}
-                  className="w-full pl-10 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500 text-black transition-transform transform hover:scale-105 duration-300"
+                  className="w-full pl-10 px-4 py-2 border 
+                  rounded-lg focus:outline-none focus:ring-2 
+                  focus:ring-teal-500 text-black 
+                  transition-transform transform hover:scale-105 duration-300"
                 />
               </div>
               {errors.email && (
@@ -83,7 +90,9 @@ export default function SignInPage() {
                 <button
                   type="button"
                   onClick={togglePasswordVisibility}
-                  className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400 focus:outline-none"
+                  className="absolute right-3 top-1/2 transform 
+                  -translate-y-1/2 
+                  text-gray-400 focus:outline-none"
                 >
                   {showPassword ? <FaEyeSlash className="text-black" /> : <FaEye />}
                 </button>
@@ -96,7 +105,9 @@ export default function SignInPage() {
             {/* Submit Button */}
             <button
               type="submit"
-              className="w-full bg-teal-600 text-white py-2 rounded-lg hover:bg-teal-700 transition-transform transform hover:scale-105 duration-300"
+              className="w-full bg-teal-600 text-white py-2 rounded-lg 
+              hover:bg-teal-700 transition-transform transform 
+              hover:scale-105 duration-300"
             >
               Sign In
             </button>

@@ -10,22 +10,30 @@ export default function DiagnosisPage() {
 
       {/* Main Content */}
       <main className="flex flex-col items-center py-12 px-6">
+
         {/* Title */}
-        <h1 className="text-3xl sm:text-4xl font-bold text-center mb-12 text-black">
+
+        <h1 className="text-3xl sm:text-4xl font-bold text-center mb-12 
+        text-black">
           Comprehensive PCOS Care Solutions
         </h1>
 
         {/* Features Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-screen-lg">
+        <div className="grid grid-cols-1 sm:grid-cols-2 
+        lg:grid-cols-3 gap-8 max-w-screen-lg">
           {/* Clinical Diagnosis */}
           <a
             href=" https://circlecareai-diagn.streamlit.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white rounded-lg shadow-lg p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer"
+            className="bg-white rounded-lg shadow-lg p-6 flex 
+            flex-col items-center text-center transition-transform 
+            transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer"
           >
 
-          <div className="bg-white rounded-lg p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer">
+          <div className="bg-white rounded-lg p-6 flex flex-col items-center text-center 
+          transition-transform transform hover:scale-105 hover:translate-y-2 
+          duration-300 cursor-pointer">
             <div className="text-teal-600 text-4xl mb-4">
               <FaStethoscope /> {/* Clinical Diagnosis Icon */}
             </div>
@@ -42,7 +50,9 @@ export default function DiagnosisPage() {
             href="https://cyclecare-telemedicine.streamlit.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer"
+            className="bg-white rounded-lg shadow-md p-6 flex 
+            flex-col items-center text-center transition-transform 
+            transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer"
           >
             <div className="text-teal-600 text-4xl mb-4">
               <FaVideo /> {/* Telemedicine Icon */}
@@ -58,7 +68,10 @@ export default function DiagnosisPage() {
             href="https://cyclecare-lifestyle-recommendation.streamlit.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center transition-transform transform hover:scale-105 hover:translate-y-2 duration-300 cursor-pointer"
+            className="bg-white rounded-lg shadow-md p-6 flex 
+            flex-col items-center text-center transition-transform 
+            transform hover:scale-105 hover:translate-y-2 duration-300 
+            cursor-pointer"
           >
             <div className="text-teal-600 text-4xl mb-4">
               <FaHeartbeat /> {/* Lifestyle Management Icon */}
@@ -74,7 +87,8 @@ export default function DiagnosisPage() {
             href="https://circlecareai-adachatbot.streamlit.app/"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center 
+            className="bg-white rounded-lg shadow-md p-6 flex flex-col 
+            items-center 
             text-center transition-transform transform hover:scale-105 
             hover:translate-y-2 duration-300 cursor-pointer"
            
@@ -82,7 +96,8 @@ export default function DiagnosisPage() {
             <div className="text-teal-600 text-4xl mb-4">
               <FaRobot /> {/* AI Companion ADA Icon */}
             </div>
-            <h2 className="text-xl font-semibold mb-2 text-black">AI Companion, Ada</h2>
+            <h2 className="text-xl font-semibold mb-2 
+            text-black">AI Companion, Ada</h2>
             <p className="text-gray-600">
               24/7 support and guidance through our intelligent chatbot.
             </p>
