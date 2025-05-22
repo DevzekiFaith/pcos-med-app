@@ -17,7 +17,7 @@ export default function SignInPage() {
 
   const onSubmit = (data: { email: string; password: string }) => {
     // Mock authentication logic
-    if (data.email === "unovaconsultingfirstafrica@gmail.com" && data.password === "Praise4212#") {
+    if (data.email === "smilewonder8@gmail.com" && data.password === "DRstrange@1998") {
       localStorage.setItem("isAuthenticated", "true");
       router.push("/"); // Redirect to a protected route
     } else {
